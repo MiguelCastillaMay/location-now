@@ -1,2 +1,19 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.container-2 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8rem
+}
+
