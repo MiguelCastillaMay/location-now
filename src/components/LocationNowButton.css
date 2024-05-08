@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.container-2 {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8rem
+}
+
+.locationList {
+  display: flex;
+  gap: .5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.locationListTitle {
+  display: flex;
+  gap: .5rem;
+  justify-content: space-between;
+}
+
+.locationListItem {
+  display: flex;
+  gap: .5rem;
+}
+
